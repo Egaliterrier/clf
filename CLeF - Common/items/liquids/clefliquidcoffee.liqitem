@@ -1,0 +1,11 @@
+{
+  "itemName" : "clefliquidcoffee",
+  "price" : 1,
+  "rarity" : "Common",
+  "inventoryIcon" : "clefliquidcoffeeicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Coffee",
+  "description" : "Nice warm coffee!",
+
+  "liquid" : "clefcoffee"
+}

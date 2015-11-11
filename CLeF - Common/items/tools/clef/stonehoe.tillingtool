@@ -1,5 +1,6 @@
 {
   "itemName" : "stonehoe",
+  "price" : 10,
   "inventoryIcon" : "stonehoeicon.png",
   "pickupQuestTemplates" : [ "hoe.gearup" ],
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],

@@ -1,0 +1,16 @@
+{
+	"name" : "CLeF-Extra-ES",
+	"version" : "",
+	"path" : ".",
+	"requires" : [ "CLeF" ],
+	// I'm so infuriated by this. Such variety of module names won't go if you want your stuff to be compatible with others!
+	"includes" : [ "EnhancedStorage(LightEdition)", "EnhancedStorage(StandardEdition)", "EnhancedStorage(HoarderEdition)" ],
+	"metadata" : {
+	  "displayName" : "CLeF Extra integration with Enhanced Storage",
+		"author" : "dsp2003",
+		"description" : "",
+		"support_url" : "",
+		"version" : "",
+		"thanks" : ""
+	}
+}

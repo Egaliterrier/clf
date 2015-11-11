@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "dreadblock", "count" : 50 }
+    { "item" : "dreadblock", "count" : 16 }
   ],
   "output" : { "item" : "hitechpickaxe", "count" : 1 },
   "groups" : [ "metalworkstation", "tools", "all" ]

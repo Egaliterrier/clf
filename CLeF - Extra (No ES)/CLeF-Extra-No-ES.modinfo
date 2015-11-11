@@ -1,0 +1,15 @@
+{
+	"name" : "CLeF-Extra-No-ES",
+	"version" : "",
+	"path" : ".",
+	"requires" : [ "CLeF" ],
+	"includes" : [],
+	"metadata" : {
+	  "displayName" : "CLeF Extra features incompatible with Enhanced Storage",
+		"author" : "dsp2003",
+		"description" : "",
+		"support_url" : "",
+		"version" : "",
+		"thanks" : ""
+	}
+}

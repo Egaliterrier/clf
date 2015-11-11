@@ -1,0 +1,11 @@
+{
+  "itemName" : "liquidpeachjuice",
+  "price" : 1,
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidpeachjuiceicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Peach Juice",
+  "description" : "A measure of peach juice.",
+
+  "liquid" : "peachjuice"
+}

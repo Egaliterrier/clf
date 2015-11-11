@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "coffeebeans", "count" : 1 }
+  ],
+  "output" : { "item" : "clefliquidcoffee", "count" : 1 },
+  "groups" : [ "coffee", "campfire", "consumables", "all" ]
+}

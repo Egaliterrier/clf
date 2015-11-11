@@ -1,0 +1,5 @@
+[
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "humantrailblazershead" },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "humantrailblazerschest" },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "humantrailblazerspants" }
+]

@@ -1,5 +1,6 @@
--- modified flyingmonster.lua, for dragonboss fixes
--- by LoPhatKao
+-- Original by CF
+-- modified flyingmonster.lua, for dragonboss fixes by LoPhatKao
+-- Please do not remove this notice from any derivatives of this file
 
 function init(args)
   self.position = {0, 0}

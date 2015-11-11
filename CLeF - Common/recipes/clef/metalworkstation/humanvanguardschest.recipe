@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 35 }
+  ],
+  "output" : { "item" : "humanvanguardschest", "count" : 1 },
+  "groups" : [ "metalworkstation", "armors", "all" ]
+}

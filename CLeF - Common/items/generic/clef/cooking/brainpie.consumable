@@ -1,5 +1,6 @@
 {
   "itemName" : "brainpie",
+  "price" : 165,
   "rarity" : "Uncommon",
   "inventoryIcon" : "brainpie.png",
   "description" : "Minced brains in a rich gravy, topped with creamy mash.",

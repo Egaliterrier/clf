@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "liquidmilk", "count" : 10 }
+  ],
+  "output" : { "item" : "bottledmilk", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "side", "all" ]
+}

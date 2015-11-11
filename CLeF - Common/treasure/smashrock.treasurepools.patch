@@ -1,15 +1,7 @@
 [
-  { "op" : "replace",
-    "path" : "/diamondRockSmall/0/1/pool/0/item",
-    "value" : "diamondore"
-  },
-  { "op" : "replace",
-    "path" : "/diamondRock/0/1/pool/0/item",
-    "value" : "diamondore"
-  },
-  { "op" : "add",
-    "path" : "/emeraldRockSmall",
-    "value" : [
+  { "op" : "replace", "path" : "/diamondRockSmall/0/1/pool/0/item", "value" : "diamondore" },
+  { "op" : "replace", "path" : "/diamondRock/0/1/pool/0/item", "value" : "diamondore" },
+  { "op" : "add", "path" : "/emeraldRockSmall", "value" : [
     [1, {
       "pool" : [
         {"weight" : 0.95, "item" : "emeraldore"},
@@ -22,9 +14,7 @@
     }]
     ]
   },
-  { "op" : "add",
-    "path" : "/emeraldRock",
-    "value" : [
+  { "op" : "add", "path" : "/emeraldRock", "value" : [
     [1, {
       "pool" : [
         {"weight" : 0.95, "item" : "emeraldore"},

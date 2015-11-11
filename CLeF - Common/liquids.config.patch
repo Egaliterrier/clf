@@ -1,45 +1,61 @@
 [
   // Dear CF, stop removing content from the game
 
-  // Adding back alien juice
+  // Peach juice. Replacement for removed alien juice
   {
     "op" : "add", "path" : "/liquids/4", "value" : {  
-      "name" : "clefalienjuice",
+      "name" : "peachjuice",
       "tickDelta" : 1,
       "color" : [254, 240, 246, 254],
-      "itemDrop" : "clefalienjuice",
-      "texture" : "/liquids/alientex.png",
+      "itemDrop" : "liquidpeachjuice",
+      "texture" : "/liquids/peachtex.png",
       "bottomLightMix" : [244, 170, 159],
       "textureMovementFactor" : 2.6,
       "interactions" : [
-        {
-          "liquid" : 8,
-          "liquidResult" : 0
-        }
+        { "liquid" : 1, "liquidResult" : 1 }, // Water
+        { "liquid" : 3, "liquidResult" : 3 }, // Poison
+        { "liquid" : 6, "liquidResult" : 6 }, // Healing water
+        { "liquid" : 9, "liquidResult" : 9 }  // Coffee
       ]
     }
   },
-  // Adding back liquid nitrogen
+  // Coffee. Required for CoffeeQuest
+  {
+    "op" : "add", "path" : "/liquids/9", "value" : {
+      "name" : "clefcoffee",
+      "tickDelta" : 1,
+      "color" : [99, 55, 45, 240],
+      "itemDrop" : "clefliquidcoffee",
+
+      "texture" : "/liquids/coffeetex.png",
+      "bottomLightMix" : [255, 255, 255],
+      "textureMovementFactor" : 2.6
+    }
+  },
+  // Frostygen. Replacement for removed liquid nitrogen
   {
     "op" : "add", "path" : "/liquids/10", "value" : {
-      "name" : "clefliquidnitrogen",
+      "name" : "frostygen",
       "tickDelta" : 1,
       "color" : [80, 221, 254, 128],
-      "itemDrop" : "liquidwater",
-      "texture" : "/liquids/watertex.png",
+      "itemDrop" : "liquidfrostygen",
+      "texture" : "/liquids/frostytex.png",
       "bottomLightMix" : [255, 70, 0],
       "textureMovementFactor" : 2.6,
       "interactions" : [
-        {
-          "liquid" : 1,
-          "materialResult" : "ice"
-        }
+        { "liquid" : 1,  "materialResult" : "ice" }, // Water
+        { "liquid" : 3,  "materialResult" : "ice" }, // Poison
+        { "liquid" : 4,  "materialResult" : "ice" }, // Peach juice
+        { "liquid" : 6,  "materialResult" : "ice" }, // Healing water
+        { "liquid" : 7,  "materialResult" : "ice" }, // Coconut milk
+        { "liquid" : 9,  "materialResult" : "ice" }, // Coffee
+        { "liquid" : 12, "materialResult" : "ice" }, // Swamp water
+        { "liquid" : 13, "materialResult" : "ice" }  // Liquid slime
       ]
     }
   },
-
-  // Water + Healing water = Healing Water
-  { "op" : "add", "path" : "/liquids/1/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 6 } },
+  // Water interactions
+  { "op" : "add", "path" : "/liquids/1/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 6 } }, // Healing water
   // Magmarock interactions for Lava
   { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 3, "materialResult" : "magmarock" } },
   { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 4, "materialResult" : "magmarock" } },
@@ -51,17 +67,6 @@
   { "op" : "add", "path" : "/liquids/2/interactions/-", "value" : { "liquid" : 13, "materialResult" : "magmarock" } },
   // Poison + Healing Water = Water
   { "op" : "add", "path" : "/liquids/3/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 1 } },
-  // Slime + Poison = Slime
-  { "op" : "add", "path" : "/liquids/3/interactions/-", "value" : { "liquid" : 13, "liquidResult" : 13 } },
-  // Alien Juice converts almost everything into itself (Except Liquid Slime)
-  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 1, "liquidResult" : 4 } },
-  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 3, "liquidResult" : 4 } },
-  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 5, "liquidResult" : 4 } },
-  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 4 } },
-  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 7, "liquidResult" : 4 } },
-  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 9, "liquidResult" : 4 } },
-  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 11, "liquidResult" : 4 } },
-  { "op" : "add", "path" : "/liquids/4/interactions/-", "value" : { "liquid" : 12, "liquidResult" : 4 } },
   // Healing Water + Erchius Fuel = Water
   { "op" : "add", "path" : "/liquids/6/interactions/-", "value" : { "liquid" : 11, "liquidResult" : 1 } },
   // Let's make Core Lava harvestable... as simple Lava
@@ -82,12 +87,11 @@
       { "liquid" : 13, "materialResult" : "magmarock" }
     ]
   },
-  // Swamp Water + Water = Swamp Water
-  { "op" : "add", "path" : "/liquids/12/interactions/-", "value" : { "liquid" : 1, "liquidResult" : 12 } },
-  // Swamp Water + Poison = Poison
-  { "op" : "add", "path" : "/liquids/12/interactions/-", "value" : { "liquid" : 3, "liquidResult" : 3 } },
-  // Swamp Water + Healing Water = Water
-  { "op" : "add", "path" : "/liquids/12/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 1 } },
+  // Swamp Water interactions
+  { "op" : "add", "path" : "/liquids/12/interactions/-", "value" : { "liquid" : 1, "liquidResult" : 12 } }, // water
+  { "op" : "add", "path" : "/liquids/12/interactions/-", "value" : { "liquid" : 3, "liquidResult" : 3 } }, // poison
+  { "op" : "add", "path" : "/liquids/12/interactions/-", "value" : { "liquid" : 4, "liquidResult" : 12 } }, // peach juice
+  { "op" : "add", "path" : "/liquids/12/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 1 } }, // healing water
   // Let's make liquid slime harvestable
   { "op" : "replace", "path" : "/liquids/13/itemDrop", "value" : "liquidslime" },
   // Liquid Slime converts almost everything into itself

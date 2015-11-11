@@ -1,5 +1,6 @@
 {
   "itemName" : "emerald",
+  "price" : 220,
   "rarity" : "Rare",
   "inventoryIcon" : "emerald.png",
   "description" : "It's a beautifully cut emerald.",

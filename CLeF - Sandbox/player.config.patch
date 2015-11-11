@@ -1,6 +1,20 @@
 [
-  // No drops
+  // Restore instant recipe learning for ore and compounds
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "silverbar" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldbar" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumbar" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "titaniumbar" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "plutoniumrod" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "refinedrubium" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "refinedaegisalt" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "refinedviolium" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "feroziumcompound" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "imperviumcompound" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "ceruliumcompound" } },
+  // Restoring flare recipe learning
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "flare" } },
+  // No death ore drop penalty
   { "op" : "replace", "path" : "/normalModeDeathDrops", "value" : [ ] },
-  // No pixel cost
+  // No death pixel cost penalty
   { "op" : "replace", "path" : "/reviveCost/percentile", "value" : 0.0 }
 ]

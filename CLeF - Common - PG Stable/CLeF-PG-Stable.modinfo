@@ -1,0 +1,15 @@
+{
+	"name" : "CLeF-PG-Stable",
+	"version" : "",
+	"path" : ".",
+	"requires" : [ "CLeF" ],
+	"includes" : [ ],
+	"metadata" : {
+	  "displayName" : "CLeF - Pleased Giraffe Stable Runtime",
+		"author" : "dsp2003",
+		"description" : "",
+		"support_url" : "https://github/clef-starbound/clef/",
+		"version" : "",
+		"thanks" : ""
+	}
+}

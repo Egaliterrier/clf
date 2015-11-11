@@ -1,6 +1,6 @@
 {
   "itemName" : "clefrobotchest",
-  "price" : 0,
+  "price" : 50,
   "rarity" : "Common",
   "inventoryIcon" : "clefrobotchest.png",
   "description" : "A robot chest, strong as steel.",

@@ -1,0 +1,3 @@
+[
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup", "value" : [ "sandstoneblock", "sandstonebed", "sandstonechair", "sandstonechest", "sandstonedoor", "sandstonetable", "sandstonetorch" ] }
+]

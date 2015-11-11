@@ -3,13 +3,13 @@
 	"version" : "",
 	"path" : ".",
 	"requires" : [],
-	"includes" : [ "CreativeMode" ],
+	"includes" : [],
 	"metadata" : {
 	  "displayName" : "CLeF - Things to do in Starbound",
 		"author" : "dsp2003",
 		"description" : "Tweaks various aspects of the game, attempts to restore the most of old features and adds tons of new content.",
-		"support_url" : "https://github/dsp2003/clf/",
-		"version" : "0.54",
-		"thanks" : "Campaigner, crushinblue, eurosat7, G4M5T3R, GROVER CURES HOUSES, IllidanS4, I Said No, LegendXCarisso, LoPhatKao, Lucaine, MetalTxus, Oberic, Sayter, shardshunt, TanzNukeTerror, XNicoX14"
+		"support_url" : "https://github/clef-starbound/clef/",
+		"version" : "0.61",
+		"thanks" : "Campaigner, crushinblue, eurosat7, G4M5T3R, GROVER CURES HOUSES, IllidanS4, I Said No, LegendXCarisso, LoPhatKao, Lucaine, MetalTxus, Oberic, shardshunt, TanzNukeTerror, XNicoX14, Wall of Knowledge"
 	}
 }

@@ -1,6 +1,6 @@
 {
   "itemName" : "clefrobotarms",
-  "price" : 0,
+  "price" : 50,
   "rarity" : "Common",
   "inventoryIcon" : "clefrobotarms.png",
   "description" : "Strong robot arms, capable of lifting heavy objects.",

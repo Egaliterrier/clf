@@ -1,0 +1,5 @@
+[
+  { "op" : "replace", "path" : "/maxImmersion", "value" : 0.67 },
+  { "op" : "add", "path" : "/consumeSoilMoisture", "value" : false },
+  { "op" : "add", "path" : "/minImmersion", "value" : 0.17 }
+]

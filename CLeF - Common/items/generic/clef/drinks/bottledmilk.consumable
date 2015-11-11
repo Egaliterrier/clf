@@ -1,0 +1,15 @@
+{
+  "itemName" : "bottledmilk",
+  "rarity" : "Common",
+  "price" : 33,
+  "inventoryIcon" : "bottledmilk.png",
+  "description" : "Freshly harvested coconut milk.",
+  "shortdescription" : "Bottled Coconut Milk",
+  "effects" : [ [
+    { "effect" : "foodheal240", "duration" : 60 },
+    { "effect" : "wellfed", "duration" : 60 }
+  ] ],
+  "blockingEffects" : [ ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

@@ -1,5 +1,6 @@
 {
   "itemName" : "hitechdrill",
+  "price" : 1024,
   "inventoryIcon" : "hitechdrillicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,

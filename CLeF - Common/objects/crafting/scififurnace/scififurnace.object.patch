@@ -1,0 +1,4 @@
+[
+  // Remove annoying buzz
+  { "op" : "remove", "path" : "/soundEffect" }
+]

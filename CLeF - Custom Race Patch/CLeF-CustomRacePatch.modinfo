@@ -3,11 +3,11 @@
 	"version" : "",
 	"path" : ".",
 	"requires" : [ "CLeF" ],
-	"includes" : [ "Avali", "Avikan Race Mod", "Familiar", "KemonoRaceMod", "Kineptic", "NingenRaceMod", "The Pony Modpack" ],
+	"includes" : [ "Avali", "Avikan Race Mod", "Kineptic", "Mousqutaire" ],
 	"metadata" : {
-	  "displayName" : "CLeF - Single-pixel compatibility patch for various custom races",
+	  "displayName" : "CLeF - Compatibility patch for various custom races",
 		"author" : "dsp2003",
-		"description" : "Changes single pixel in Tier 2 ship in order to give player access to working fuel hatch.",
+		"description" : "Changes single object in Tier 2 ship in order to give player access to fuel hatch interface.",
 		"support_url" : "",
 		"version" : "",
 		"thanks" : ""

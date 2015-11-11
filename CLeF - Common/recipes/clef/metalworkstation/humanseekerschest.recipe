@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "feroziumcompound", "count" : 35 }
+  ],
+  "output" : { "item" : "humanseekerschest", "count" : 1 },
+  "groups" : [ "metalworkstation", "armors", "all" ]
+}

@@ -1,0 +1,18 @@
+  {
+  "id" : "coffeequest1.gearup",
+  "prerequisites" : [ "outpost1.gearup" ],
+  "title" : "^orange;A Fair Trade",
+  "text" : "I'm so thirsty! I've been here for so long it's been months since I had a coffee. ^green;If you find some coffee beans on a forest planet and ^orange;make me some coffee ^green;in the coffee machine over there, ^white;I'll give you a blank tech card!",
+  "completionText" : "Thanks for the coffee but I'm not drinking it straight out of your matter manipulator! You'll need to do better than that for a tech card. Talk to me again when you're not busy.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "clefliquidcoffee", "count" : 1 }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+  ],
+  "canBeAbandoned" : false,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "requireTurnIn" : true
+}

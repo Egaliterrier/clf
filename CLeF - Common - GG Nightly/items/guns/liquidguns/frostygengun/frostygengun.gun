@@ -1,0 +1,28 @@
+{
+  "itemName" : "frostygengun",
+  "inventoryIcon" : "frostygengun.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "This gun shoots frostygen.",
+  "shortdescription" : "Frostygen Gun",
+  "image" : "frostygengun.png",
+  "handPosition" : [-6, -3],
+  "firePosition" : [11, 0],
+  "recoilTime" : 0.1,
+  "level" : 4,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.33,
+  "inaccuracy" : 0.025,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "frostygensquirt",
+  "projectile" : {
+    "speed" : 40,
+    "power" : 0
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/pumpgun_blast1.ogg" }, { "file" : "/sfx/gun/pumpgun_blast2.ogg" }, { "file" : "/sfx/gun/pumpgun_blast3.ogg" } ]
+  }
+}

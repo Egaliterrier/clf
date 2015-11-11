@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "coconut", "count" : 1 }
+  ],
+  "output" : { "item" : "liquidmilk", "count" : 2 },
+  "groups" : [ "kitchen", "plain", "all" ]
+}

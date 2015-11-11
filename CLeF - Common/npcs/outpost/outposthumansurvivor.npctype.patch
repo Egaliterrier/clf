@@ -1,0 +1,9 @@
+[
+  // Restored Coffee Questline
+  { "op": "add", "path": "/scriptConfig/offeredQuests/-", "value": "coffeequest1.gearup" },
+  { "op": "add", "path": "/scriptConfig/offeredQuests/-", "value": "coffeequest2.gearup" },
+  { "op": "add", "path": "/scriptConfig/offeredQuests/-", "value": "coffeequest3.gearup" },
+  { "op": "add", "path": "/scriptConfig/turnInQuests/-", "value": "coffeequest1.gearup" },
+  { "op": "add", "path": "/scriptConfig/turnInQuests/-", "value": "coffeequest2.gearup" },
+  { "op": "add", "path": "/scriptConfig/turnInQuests/-", "value": "coffeequest3.gearup" }
+]

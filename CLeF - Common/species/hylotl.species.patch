@@ -1,0 +1,26 @@
+[
+  // Lissar's male hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex2" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex3" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex4" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex5" },
+  // Lissar's female hair
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex2" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex3" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex4" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex5" },
+
+  // Blueprints
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "kimonotraditionalchest" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "kimonotraditionalpants" } },
+
+  // Male clothes
+  { "op" : "add", "path" : "/genders/0/shirt/-", "value" : "kimonotraditionalchest" },
+  { "op" : "add", "path" : "/genders/0/pants/-", "value" : "kimonotraditionalpants" },
+
+  // Female clothes
+  { "op" : "add", "path" : "/genders/1/shirt/-", "value" : "kimonotraditionalchest" },
+  { "op" : "add", "path" : "/genders/1/pants/-", "value" : "kimonotraditionalpants" }
+]

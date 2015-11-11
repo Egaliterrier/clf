@@ -1,0 +1,4 @@
+[
+  { "op" : "add", "path" : "/dropConfig/drops/0/-", "value" : { "item" : "sapling", "count" : 2 } },
+  { "op" : "add", "path" : "/dropConfig/drops/0/-", "value" : { "item" : "fullwood1", "count" : 1 } }
+]

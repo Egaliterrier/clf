@@ -1,0 +1,10 @@
+[
+  // First of all, let's allow simple hydroponics (Do you know about hydroponics? It's a thing, in case you didn't knew.)
+  { "op" : "replace", "path" : "/liquidInteractions/0/topOnly", "value" : false },
+  // Now we can water plants with alien juice
+  { "op" : "add", "path" : "/liquidInteractions/-", "value" : { "liquidId" : 4, "consumeLiquid" : 0.5, "transformModId" : 31, "topOnly" : false } },
+  // ...and healing water
+  { "op" : "add", "path" : "/liquidInteractions/-", "value" : { "liquidId" : 6, "consumeLiquid" : 0.5, "transformModId" : 31, "topOnly" : false } },
+  // ...and swamp water
+  { "op" : "add", "path" : "/liquidInteractions/-", "value" : { "liquidId" : 12, "consumeLiquid" : 0.5, "transformModId" : 31, "topOnly" : false } }
+]

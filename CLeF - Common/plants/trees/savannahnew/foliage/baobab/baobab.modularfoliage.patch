@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/dropConfig/drops/1", "value" : [ { "item" : "sapling", "count" : 2 } ] }
+]

@@ -1,0 +1,51 @@
+{
+  "itemName" : "humanpioneers2chest",
+  "price" : 500,
+  "inventoryIcon" : "icons.png:chest",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "This old-fashioned chestguard protects the pioneer's first steps into a new world.",
+  "shortdescription" : "Retro Pioneer's Chestguard",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 1.0
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 27.5
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 60
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 15
+    }
+  ],
+
+  "questTags" : [ "titaniumarmor" ],
+
+  "colorOptions" : [
+
+  ]
+}

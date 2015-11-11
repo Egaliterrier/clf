@@ -1,0 +1,28 @@
+{
+  "itemName" : "poisongun",
+  "inventoryIcon" : "poisongun.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "This gun shoots poison.",
+  "shortdescription" : "Poison Gun",
+  "image" : "poisongun.png",
+  "handPosition" : [-6, -3],
+  "firePosition" : [11, 0],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.33,
+  "inaccuracy" : 0.025,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "poisonsquirt",
+  "projectile" : {
+    "speed" : 40,
+    "power" : 0
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/pumpgun_blast1.ogg" }, { "file" : "/sfx/gun/pumpgun_blast2.ogg" }, { "file" : "/sfx/gun/pumpgun_blast3.ogg" } ]
+  }
+}

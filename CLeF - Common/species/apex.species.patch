@@ -1,0 +1,18 @@
+[
+  // Lissar's male hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
+
+  // Lissar's male beards
+  { "op" : "add", "path" : "/genders/0/facialHair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/0/facialHair/-", "value" : "ex2" },
+  { "op" : "add", "path" : "/genders/0/facialHair/-", "value" : "ex3" },
+
+  // Lissar's female hair
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex2" },
+
+  // Lissar's female beards
+  { "op" : "add", "path" : "/genders/1/facialHair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/1/facialHair/-", "value" : "ex2" },
+  { "op" : "add", "path" : "/genders/1/facialHair/-", "value" : "ex3" }
+]

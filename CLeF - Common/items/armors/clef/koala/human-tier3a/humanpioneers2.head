@@ -1,0 +1,43 @@
+{
+  "itemName" : "humanpioneers2head",
+  "price" : 300,
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "An old-fashioned titanium helm of the pioneer.",
+  "shortdescription" : "Retro Pioneer's Helm",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    {
+      "stat" : "powerMultiplier",
+      "basePercentage" : 0.6
+    },
+
+    {
+      "stat" : "protection",
+      "amount" : 16.5
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 36
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 9
+    }
+  ],
+
+  "questTags" : [ "titaniumarmor" ],
+
+  "colorOptions" : [
+
+  ]
+}

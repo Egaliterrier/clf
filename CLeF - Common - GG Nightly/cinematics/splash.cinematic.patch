@@ -1,0 +1,3 @@
+[
+  { "op" : "replace", "path" : "/audio/0/resource", "value" : "/sfx/npc/monsters/monster_surprise.ogg" }
+]

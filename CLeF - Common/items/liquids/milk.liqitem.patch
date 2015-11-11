@@ -1,3 +1,4 @@
 [
-  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "butter" }
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "butter" },
+  { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "bottledmilk" }
 ]

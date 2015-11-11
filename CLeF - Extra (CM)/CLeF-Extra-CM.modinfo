@@ -1,0 +1,15 @@
+{
+	"name" : "CLeF-Extra-CM",
+	"version" : "",
+	"path" : ".",
+	"requires" : [ "CLeF", "CreativeMode" ],
+	"includes" : [ ],
+	"metadata" : {
+	  "displayName" : "CLeF Extra integration with Creative Mode",
+		"author" : "dsp2003",
+		"description" : "",
+		"support_url" : "",
+		"version" : "",
+		"thanks" : ""
+	}
+}

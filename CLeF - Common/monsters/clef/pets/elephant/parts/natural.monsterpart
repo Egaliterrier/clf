@@ -1,0 +1,9 @@
+{
+  "name" : "natural",
+  "category" : "elephant",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "natural.png"
+  }
+}

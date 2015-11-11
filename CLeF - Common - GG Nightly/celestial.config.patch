@@ -1,0 +1,4 @@
+[
+  // Terrestrial type patch ------------------------------------------------------
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "midnight" }
+]

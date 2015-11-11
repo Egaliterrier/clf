@@ -18,7 +18,7 @@
   { "op" : "replace", "path" : "/speciesText/avian/selectSpeech/0", "value" :
     {
       "animation" : "unique",
-      "text" : "> While thinking about what you could do, you couldn't help but wonder why you were given ^yellow;a choice^#aee1ee; at all. \n\n> After all, if nothing really matters, if everything is ^red;a lie^#aee1ee;, even ^yellow;the life itself^#aee1ee;, then why do you keep to exist? \n\n> ^white;Or do you?",
+      "text" : "> While thinking about what you could do, you couldn't help but wonder why you were given ^yellow;a choice^#aee1ee; at all. \n\n> After all, if nothing really matters, if everything is ^red;a lie^#aee1ee;, even ^yellow;the life itself^#aee1ee;, then why do you keep existing? \n\n> ^white;Or do you?",
       "speedModifier" : 0.6
     }
   },

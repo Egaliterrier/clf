@@ -1,5 +1,6 @@
 {
   "itemName" : "brainstew",
+  "price" : 235,
   "rarity" : "Uncommon",
   "inventoryIcon" : "brainstew.png",
   "description" : "Mmm! Braaains! Don't mind the cyan-ish tint, I'm sure it's tasty.",

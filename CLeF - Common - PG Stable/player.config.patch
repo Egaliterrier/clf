@@ -1,0 +1,5 @@
+[
+  // Restoring old wall behaviour
+  { "op" : "replace", "path" : "/movementParameters/maxMovementPerStep", "value" : 5.0 },
+  { "op" : "replace", "path" : "/movementParameters/maximumCorrection", "value" : 10 }
+]

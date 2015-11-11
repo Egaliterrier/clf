@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "dreadblock", "count" : 100 }
+    { "item" : "dreadblock", "count" : 40 }
   ],
   "output" : { "item" : "hitechdrill", "count" : 1 },
   "groups" : [ "scifianvil", "tools", "all" ]

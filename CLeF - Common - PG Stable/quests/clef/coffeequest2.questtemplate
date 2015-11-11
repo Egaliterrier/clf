@@ -1,0 +1,18 @@
+{
+  "id" : "coffeequest2.gearup",
+  "prerequisites" : [ "coffeequest1.gearup" ],
+  "title" : "^orange;Fill 'er Up!",
+  "text" : "If you go to a desert planet and ^green;make me a ^orange;glass mug ^green;out of heated sand ^white;I might actually be able to drink that coffee you gave me. Maybe then I'll give you the Tech Card.",
+  "completionText" : "Mmmm coffee... I really need to stir it before I'm satisfied though. Talk to me again when you're ready to finish this up.",
+  "completionConditions" : [
+    { "type" : "gather", "item" : "glasscoffeemug", "count" : 1 }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+   ],
+  "canBeAbandoned" : false,
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "requireTurnIn" : true
+}
