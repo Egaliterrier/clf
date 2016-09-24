@@ -1,5 +1,6 @@
 {
   "itemName" : "diamondore",
+  "price" : 45,
   "rarity" : "Rare",
   "inventoryIcon" : "diamondore.png",
   "description" : "Diamond ore. Can be used for smelting or repairs.",

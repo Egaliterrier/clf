@@ -1,0 +1,16 @@
+[
+  { "op" : "replace", "path" : "/description", "value" : "Accepts a bunch of different kinds of fuel. Avian design. Kind of glitchy." },
+  { "op" : "add", "path" : "/objectType", "value" : "container" },
+  { "op" : "add", "path" : "/hasWindowIcon", "value" : false },
+  { "op" : "add", "path" : "/recipeGroup", "value" : "fuel" },
+  { "op" : "add", "path" : "/slotCount", "value" : 6 },
+  { "op" : "add", "path" : "/uiConfig", "value" : "/interface/fuel/fuel.config" },
+  { "op" : "add", "path" : "/autoCloseCooldown", "value" : 3600 },
+  { "op" : "add", "path" : "/frameCooldown", "value" : 5 },
+  { "op" : "add", "path" : "/questTags", "value" : [ "newfuelhatch" ] },
+//  { "op" : "remove", "path" : "/animation" },
+  { "op" : "remove", "path" : "/soundEffect" },
+  { "op" : "remove", "path" : "/soundEffectRadius" },
+//  { "op" : "remove", "path" : "/scripts" },
+  { "op" : "remove", "path" : "/sounds" }
+]

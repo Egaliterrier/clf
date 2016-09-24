@@ -1,5 +1,6 @@
 {
   "itemName" : "emeraldore",
+  "price" : 50,
   "rarity" : "Rare",
   "inventoryIcon" : "emeraldore.png",
   "description" : "Emerald ore. Can be used for smelting or repairs.",

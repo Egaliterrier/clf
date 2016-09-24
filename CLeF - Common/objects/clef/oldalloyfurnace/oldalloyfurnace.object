@@ -79,7 +79,7 @@
     }
   ],
 
-  "soundEffect" : "/sfx/objects/campfire.wav",
+  "soundEffect" : "/sfx/objects/campfire.ogg",
 
   "statusEffects" : [
 // dsp2003: Commented out until somebody fixes this mess
@@ -91,7 +91,7 @@
   ],
 
   "recipeGroup" : "alloyfurnace",
-  "openSounds" : [ "/sfx/objects/campfire_use.wav" ],
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
   "slotCount" : 2,
   "uiConfig" : "/interface/clef/objectcrafting/oldstonefurnace.config",
   "frameCooldown" : 5,

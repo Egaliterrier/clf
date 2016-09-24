@@ -1,0 +1,25 @@
+{
+  "objectName" : "bonusduckkcposter",
+  "tags" : ["critter","bonusduck","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 120,
+
+  "description" : "Bonus duck wants you to keep calm.",
+  "shortdescription" : "Bonus duck K.C. Poster",
+  "race" : "all",
+
+  "inventoryIcon" : "bonusduckkcpostericon.png",
+  "orientations" : [
+    {
+      "image" : "bonusduckkcposter.png:<color>",
+      "imagePosition" : [-14, -23],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

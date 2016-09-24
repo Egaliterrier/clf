@@ -1,5 +1,10 @@
 [
   { "op" : "replace", "path" : "/printable", "value" : true },
   { "op" : "add", "path" : "/hasObjectItem", "value" : true },
-  { "op" : "add", "path" : "/price", "value" : 1000 }
+  { "op" : "add", "path" : "/price", "value" : 1000 },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : { "item" : "manipulatormodule" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : { "item" : "mattermodulecomponent" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : { "item" : "upgrademodule" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : { "item" : "blanktechcard" } },
+  { "op" : "add", "path" : "/interactData/items/-", "value" : { "item" : "techchip" } }
 ]

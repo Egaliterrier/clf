@@ -55,7 +55,7 @@
 
   "health" : 60,
   
-  "smashSounds" : [ "/sfx/projectiles/throwingboulder_impact1.wav" ],
+  "smashSounds" : [ "/sfx/projectiles/throwingboulder_impact1.ogg" ],
   "smashDropPool" : "emeraldRock",
   "breakDropPool" : "emeraldRock"
 }

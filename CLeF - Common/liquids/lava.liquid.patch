@@ -1,0 +1,11 @@
+[
+  // Magmarock interactions for Lava
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 3, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 4, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 6, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 7, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 9, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 10, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 12, "materialResult" : "magmarock" } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 13, "materialResult" : "magmarock" } }
+]

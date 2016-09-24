@@ -1,0 +1,4 @@
+[
+  { "op" : "replace", "path" : "/orientations/0/imageLayers", "value" : [ { "image" : "hylotlplant1.png:<color>", "fullbright" : true }, { "image" : "hylotlplant1lit.png:<color>" } ] },
+  { "op" : "replace", "path" : "/orientations/1/imageLayers", "value" : [ { "image" : "hylotlplant1.png:<color>", "fullbright" : true }, { "image" : "hylotlplant1lit.png:<color>" } ] }
+]

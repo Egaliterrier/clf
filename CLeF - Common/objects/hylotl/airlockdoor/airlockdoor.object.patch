@@ -1,0 +1,33 @@
+[
+  {
+    "op": "add",
+    "path": "/orientations/-",
+    "value": {
+      "image" : "airlockdoor.png:default",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "animationParts" : {
+        "door" : "airlockdoor.png"
+      },
+      "animationPosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors": [ "background" ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/orientations/-",
+    "value": {
+      "image" : "airlockdoor.png:default",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "animationParts" : {
+        "door" : "airlockdoor.png"
+      },
+      "animationPosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+     }
+  }
+]

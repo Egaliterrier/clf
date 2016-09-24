@@ -3,12 +3,12 @@
 	"version" : "",
 	"path" : ".",
 	"requires" : [ "CLeF" ],
-	"includes" : [ "CLeF-Extra" ],
+	"includes" : [ "CLeF-GG-Stable", "CLeF-Extra-CM", "CLeF-Extra-No-ES", "CLeF-Extra-ES" ],
 	"metadata" : {
 	  "displayName" : "CLeF Sandbox Addon Module",
 		"author" : "dsp2003",
 		"description" : "",
-		"support_url" : "https://github/dsp2003/clf/",
+		"support_url" : "",
 		"version" : "",
 		"thanks" : ""
 	}

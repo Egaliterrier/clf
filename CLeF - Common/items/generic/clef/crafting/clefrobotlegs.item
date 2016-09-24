@@ -1,6 +1,6 @@
 {
   "itemName" : "clefrobotlegs",
-  "price" : 0,
+  "price" : 50,
   "rarity" : "Common",
   "inventoryIcon" : "clefrobotlegs.png",
   "description" : "Robot legs, for mobility!",

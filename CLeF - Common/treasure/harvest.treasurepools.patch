@@ -1,0 +1,19 @@
+[
+  {
+    "op": "add", "path": "/reedsharvest", "value" : [
+      [ 0,
+        {
+          "pool" : [
+            { "weight": 0.9, "item": "reed" },
+            { "weight": 0.1, "item": "reedsgrowable" }
+          ],
+          "poolRounds": [
+            [0.3, 2],
+            [0.7, 3],
+            [0.1, 4]
+          ]
+        }
+      ]
+    ]
+  }
+]

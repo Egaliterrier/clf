@@ -1,5 +1,6 @@
 {
   "itemName" : "imperviumbar",
+  "price" : 200,
   "rarity" : "Rare",
   "inventoryIcon" : "imperviumbar.png",
   "description" : "It's an impervium bar.",

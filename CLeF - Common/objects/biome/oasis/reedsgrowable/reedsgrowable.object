@@ -1,0 +1,50 @@
+{
+  "objectName" : "reedsgrowable",
+  "colonyTags" : ["oasis", "nature"],
+  "rarity" : "Common",
+  "category" : "farmable",
+  "description" : "No, it doesn't look like a lamp. It's just reeds.",
+  "shortdescription" : "Reed Sprout",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 5,
+
+  "apexDescription" : "Just reed sprouts.",
+  "avianDescription" : "Just reed sprouts.",
+  "floranDescription" : "Just reedssss... sprouts.",
+  "glitchDescription" : "Just reed sprouts.",
+  "humanDescription" : "Just reed sprouts.",
+  "hylotlDescription" : "Just reed sprouts.",
+
+  "inventoryIcon" : "reedseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "reedsgrowable.png:<color>.<stage>.<alt>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    },
+	  {
+      "dualImage" : "reedsgrowable.png:<color>.<stage>.<alt>",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    { "alts" : 5, "duration" : [25, 35] },
+    { "alts" : 5, "duration" : [25, 35] },
+    { "alts" : 5, "duration" : [25, 35] },
+    { "alts" : 5, "harvestPool" : "reedsharvest", "resetToStage" : 0 }
+  ],
+
+  "maxImmersion" : 0.125
+}

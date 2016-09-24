@@ -1,0 +1,30 @@
+{
+  "name" : "shockBallAttack",
+  "label" : "SHOCK BALL",
+  "image" : "/monsters/koala/flying/skills/default.png",
+
+  "parameters" : {
+    "shockBallAttack" : {
+      "cooldownTime" : 4,
+
+      "factory" : "createRangedAttack",
+      "projectile" : "shock",
+      "range" : 10,
+      "speed" : 30,
+      "power" : 16,
+      "shots" : 1,
+      "windupTime" : 0.05,
+      "winddownTime" : 0.2,
+      "castTime" : 0.4,
+      "castEffect" : "castelectric",
+      "castAnimation" : "charge"
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ ]
+    }
+  }
+}
+

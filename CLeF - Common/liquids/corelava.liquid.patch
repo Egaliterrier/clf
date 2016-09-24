@@ -1,0 +1,20 @@
+[
+  // Let's make Core Lava harvestable... as simple Lava
+  { "op" : "add", "path" : "/itemDrop", "value" : "liquidlava" },
+  // ...and, of course, copy interactions from Lava to
+  { "op" : "add", "path" : "/interactions", "value" :
+    [
+      // Vanilla
+      { "liquid" : 1, "materialResult" : "magmarock" },
+      // Those that we've implemented
+      { "liquid" : 3, "materialResult" : "magmarock" },
+      { "liquid" : 4, "materialResult" : "magmarock" },
+      { "liquid" : 6, "materialResult" : "magmarock" },
+      { "liquid" : 7, "materialResult" : "magmarock" },
+      { "liquid" : 9, "materialResult" : "magmarock" },
+      { "liquid" : 10, "materialResult" : "magmarock" },
+      { "liquid" : 12, "materialResult" : "magmarock" },
+      { "liquid" : 13, "materialResult" : "magmarock" }
+    ]
+  }
+]

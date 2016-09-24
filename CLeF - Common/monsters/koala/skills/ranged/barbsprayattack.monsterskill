@@ -1,0 +1,27 @@
+{
+  "name" : "barbSprayAttack",
+  "label" : "BARB SPRAY",
+  "image" : "/monsters/koala/flying/skills/default.png",
+
+  "parameters" : {
+    "barbSprayAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "thorns",
+      "range" : 20,
+      "speed" : 45,
+      "power" : 10,
+      "shots" : 6,
+      "fireInterval" : 0.1,
+      "castTime" : 0.4,
+      "castEffect" : "castphysical",
+      "castAnimation" : "charge"
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ "/sfx/projectiles/thorn.ogg" ]
+    }
+  }
+}
+

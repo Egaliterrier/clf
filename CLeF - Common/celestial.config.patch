@@ -1,0 +1,203 @@
+[
+  // Planetary regions patch -----------------------------------------------------
+  { "op" : "replace", "path" : "/systemTypes/White/orbitRegions/0/orbitRange", "value" : [ 2, 11 ] },
+  { "op" : "replace", "path" : "/systemTypes/Orange/orbitRegions/0/orbitRange", "value" : [ 2, 11 ] },
+  { "op" : "replace", "path" : "/systemTypes/Yellow/orbitRegions/0/orbitRange", "value" : [ 2, 11 ] },
+  { "op" : "replace", "path" : "/systemTypes/Blue/orbitRegions/0/orbitRange", "value" : [ 2, 11 ] },
+  { "op" : "replace", "path" : "/systemTypes/Red/orbitRegions/0/orbitRange", "value" : [ 2, 11 ] },
+
+  // Removing useless mandatory "Moon" planet spawning ---------------------------
+  { "op" : "remove", "path" : "/systemTypes/White/orbitRegions/1" },
+  { "op" : "remove", "path" : "/systemTypes/Orange/orbitRegions/1" },
+  { "op" : "remove", "path" : "/systemTypes/Yellow/orbitRegions/1" },
+  { "op" : "remove", "path" : "/systemTypes/Blue/orbitRegions/1" },
+  { "op" : "remove", "path" : "/systemTypes/Red/orbitRegions/1" },
+
+  // Satellite probability patch -------------------------------------------------
+  { "op" : "replace", "path" : "/planetaryTypes/Moon/satelliteProbability",   "value" : 0.15 },
+  { "op" : "replace", "path" : "/planetaryTypes/Barren/satelliteProbability", "value" : 0.15 },
+  { "op" : "add", "path" : "/planetaryTypes/Moon/maxSatelliteCount",   "value" : 2 },
+  { "op" : "add", "path" : "/planetaryTypes/Barren/maxSatelliteCount", "value" : 2 },
+
+  // Terrestrial type patch ------------------------------------------------------
+  // Tier1
+  { "op" : "add", "path" : "/planetaryTypes/Tier1/baseParameters/terrestrialType/-", "value" : "forest" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier1/baseParameters/terrestrialType/-", "value" : "desert" },
+//{ "op" : "add", "path" : "/planetaryTypes/Tier1/baseParameters/terrestrialType/-", "value" : "moon" },
+  // Tier2
+  { "op" : "add", "path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType/-", "value" : "grassland" }, //new
+  { "op" : "add", "path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType/-", "value" : "moon" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType/-", "value" : "ocean" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType/-", "value" : "savannah" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType/-", "value" : "snow" },
+  // Tier3
+  { "op" : "add", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value" : "aliensafe" }, //new
+  { "op" : "add", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value" : "grassland" }, //new
+  { "op" : "add", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value" : "junglesafe" }, //new
+//{ "op" : "add", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value" : "moon" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value" : "toxicsafe" }, //new
+  // Tier4
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "arctic" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "grassland" }, //new
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "midnight" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "moon" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "tundra" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "aliensafe" }, //new
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "junglesafe" }, //new
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-", "value" : "toxicsafe" }, //new
+  // Tier5
+  { "op" : "add", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value" : "magma" },
+//{ "op" : "add", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value" : "moon" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value" : "scorched" },
+  { "op" : "add", "path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value" : "volcanic" },
+  // Tier6
+  { "op" : "add", "path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType/-", "value" : "moon" },
+  // Tier1 Moon
+//{ "op" : "add", "path" : "/satelliteTypes/Tier1/baseParameters/terrestrialType/-", "value" : "forest" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier1/baseParameters/terrestrialType/-", "value" : "desert" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier1/baseParameters/terrestrialType/-", "value" : "moon" },
+  // Tier2 Moon
+  { "op" : "add", "path" : "/satelliteTypes/Tier2/baseParameters/terrestrialType/-", "value" : "moon" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier2/baseParameters/terrestrialType/-", "value" : "ocean" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier2/baseParameters/terrestrialType/-", "value" : "savannah" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier2/baseParameters/terrestrialType/-", "value" : "snow" },
+  // Tier3 Moon
+//{ "op" : "add", "path" : "/satelliteTypes/Tier3/baseParameters/terrestrialType/-", "value" : "alien" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier3/baseParameters/terrestrialType/-", "value" : "jungle" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier3/baseParameters/terrestrialType/-", "value" : "moon" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier3/baseParameters/terrestrialType/-", "value" : "toxic" },
+  // Tier4 Moon
+//{ "op" : "add", "path" : "/satelliteTypes/Tier4/baseParameters/terrestrialType/-", "value" : "arctic" },
+  { "op" : "add", "path" : "/satelliteTypes/Tier4/baseParameters/terrestrialType/-", "value" : "moon" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier4/baseParameters/terrestrialType/-", "value" : "tundra" },
+  // Tier5 Moon
+//{ "op" : "add", "path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType/-", "value" : "magma" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType/-", "value" : "moon" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType/-", "value" : "scorched" },
+//{ "op" : "add", "path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType/-", "value" : "volcanic" },
+  // Tier6 Moon
+  { "op" : "add", "path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-", "value" : "moon" },
+  // Bog Moon
+  { "op" : "add", "path" : "/satelliteTypes/Moon/baseParameters/terrestrialType/-", "value" : "desert" },
+  { "op" : "add", "path" : "/satelliteTypes/Moon/baseParameters/terrestrialType/-", "value" : "forest" },
+  { "op" : "add", "path" : "/satelliteTypes/Moon/baseParameters/terrestrialType/-", "value" : "junglesafe" }, //new
+  { "op" : "add", "path" : "/satelliteTypes/Moon/baseParameters/terrestrialType/-", "value" : "savannah" },
+  { "op" : "add", "path" : "/satelliteTypes/Moon/baseParameters/terrestrialType/-", "value" : "snow" },
+
+  // Planet size patch -----------------------------------------------------------
+  // Tier1
+  { "op" : "add", "path" : "/planetaryTypes/Tier1/variationParameters/-", "value" : { "worldSize" : "tiny",    "imageScale" : 0.08, "smallImageScale" : 0.4 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier1/variationParameters/-", "value" : { "worldSize" : "large",   "imageScale" : 0.15, "smallImageScale" : 0.6 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier1/variationParameters/-", "value" : { "worldSize" : "massive", "imageScale" : 0.21, "smallImageScale" : 0.7 } },
+//{ "op" : "add", "path" : "/planetaryTypes/Tier1/variationParameters/-", "value" : { "worldSize" : "giant",   "imageScale" : 0.32, "smallImageScale" : 0.75 } },
+  // Tier2
+//{ "op" : "add", "path" : "/planetaryTypes/Tier2/variationParameters/-", "value" : { "worldSize" : "tiny",    "imageScale" : 0.08, "smallImageScale" : 0.4 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier2/variationParameters/-", "value" : { "worldSize" : "small",   "imageScale" : 0.1,  "smallImageScale" : 0.5 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier2/variationParameters/-", "value" : { "worldSize" : "massive", "imageScale" : 0.21, "smallImageScale" : 0.7 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier2/variationParameters/-", "value" : { "worldSize" : "giant",   "imageScale" : 0.32, "smallImageScale" : 0.75 } },
+  // Tier3
+  { "op" : "add", "path" : "/planetaryTypes/Tier3/variationParameters/-", "value" : { "worldSize" : "tiny",    "imageScale" : 0.08, "smallImageScale" : 0.4 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier3/variationParameters/-", "value" : { "worldSize" : "small",   "imageScale" : 0.1,  "smallImageScale" : 0.5 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier3/variationParameters/-", "value" : { "worldSize" : "massive", "imageScale" : 0.21, "smallImageScale" : 0.7 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier3/variationParameters/-", "value" : { "worldSize" : "giant",   "imageScale" : 0.32, "smallImageScale" : 0.75 } },
+  // Tier4
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/variationParameters/-", "value" : { "worldSize" : "tiny",    "imageScale" : 0.08, "smallImageScale" : 0.4 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/variationParameters/-", "value" : { "worldSize" : "small",   "imageScale" : 0.1,  "smallImageScale" : 0.5 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/variationParameters/-", "value" : { "worldSize" : "massive", "imageScale" : 0.21, "smallImageScale" : 0.7 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier4/variationParameters/-", "value" : { "worldSize" : "giant",   "imageScale" : 0.32, "smallImageScale" : 0.75 } },
+  // Tier5
+  { "op" : "add", "path" : "/planetaryTypes/Tier5/variationParameters/-", "value" : { "worldSize" : "tiny",    "imageScale" : 0.08, "smallImageScale" : 0.4 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier5/variationParameters/-", "value" : { "worldSize" : "small",   "imageScale" : 0.1,  "smallImageScale" : 0.5 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier5/variationParameters/-", "value" : { "worldSize" : "massive", "imageScale" : 0.21, "smallImageScale" : 0.7 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier5/variationParameters/-", "value" : { "worldSize" : "giant",   "imageScale" : 0.32, "smallImageScale" : 0.75 } },
+  // Tier6
+  { "op" : "add", "path" : "/planetaryTypes/Tier6/variationParameters/-", "value" : { "worldSize" : "tiny",    "imageScale" : 0.08, "smallImageScale" : 0.4 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier6/variationParameters/-", "value" : { "worldSize" : "small",   "imageScale" : 0.1,  "smallImageScale" : 0.5 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier6/variationParameters/-", "value" : { "worldSize" : "massive", "imageScale" : 0.21, "smallImageScale" : 0.7 } },
+  { "op" : "add", "path" : "/planetaryTypes/Tier6/variationParameters/-", "value" : { "worldSize" : "giant",   "imageScale" : 0.32, "smallImageScale" : 0.75 } },
+  // Moon
+  { "op" : "add", "path" : "/planetaryTypes/Moon/variationParameters/-", "value" : { "worldSize" : "tiny",    "imageScale" : 0.08, "smallImageScale" : 0.4 } },
+  { "op" : "add", "path" : "/planetaryTypes/Moon/variationParameters/-", "value" : { "worldSize" : "small",   "imageScale" : 0.1,  "smallImageScale" : 0.5 } },
+  // Barren
+  { "op" : "add", "path" : "/planetaryTypes/Barren/variationParameters/-", "value" : { "worldSize" : "tiny",    "imageScale" : 0.08, "smallImageScale" : 0.4 } },
+  { "op" : "add", "path" : "/planetaryTypes/Barren/variationParameters/-", "value" : { "worldSize" : "massive", "imageScale" : 0.21, "smallImageScale" : 0.7 } },
+  { "op" : "add", "path" : "/planetaryTypes/Barren/variationParameters/-", "value" : { "worldSize" : "giant",   "imageScale" : 0.32, "smallImageScale" : 0.75 } },
+  // Tier1 Moon
+  { "op" : "add", "path" : "/satelliteTypes/Tier1/variationParameters/-", "value" : { "worldSize" : "tiny", "imageScale" : 0.035 } },
+  // Tier2 Moon
+  { "op" : "add", "path" : "/satelliteTypes/Tier2/variationParameters/-", "value" : { "worldSize" : "tiny", "imageScale" : 0.035 } },
+  // Tier3 Moon
+  { "op" : "add", "path" : "/satelliteTypes/Tier3/variationParameters/-", "value" : { "worldSize" : "tiny", "imageScale" : 0.035 } },
+  // Tier4 Moon
+  { "op" : "add", "path" : "/satelliteTypes/Tier4/variationParameters/-", "value" : { "worldSize" : "tiny", "imageScale" : 0.035 } },
+  // Tier5 Moon
+  { "op" : "add", "path" : "/satelliteTypes/Tier5/variationParameters/-", "value" : { "worldSize" : "tiny", "imageScale" : 0.035 } },
+  // Tier6 Moon
+  { "op" : "add", "path" : "/satelliteTypes/Tier6/variationParameters/-", "value" : { "worldSize" : "tiny", "imageScale" : 0.035 } },
+  // Bog Moon
+  { "op" : "add", "path" : "/satelliteTypes/Moon/variationParameters/-", "value" : { "worldSize" : "tiny",  "imageScale" : 0.035 } },
+  
+  // Safe and custom biome types -------------------------------------------------
+  // Copied from Garden
+  { "op" : "add", "path" : "/terrestrialHorizonGraphics/grassland", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/garden_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  // Copied from Jungle
+  { "op" : "add", "path" : "/terrestrialHorizonGraphics/junglesafe", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/jungle_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  // Copied from Alien
+  { "op" : "add", "path" : "/terrestrialHorizonGraphics/aliensafe", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/alien_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [3, 3]
+    }
+  },
+  // Copied from Toxic
+  { "op" : "add", "path" : "/terrestrialHorizonGraphics/toxicsafe", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/toxic_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25],
+      "maskPerPlanetRange" : [2, 2]
+    }
+  },
+  // Copied from Garden
+  { "op" : "add", "path" : "/terrestrialGraphics/grassland", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/garden/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 30],
+      "baseCount" : 5
+    }
+  },
+  // Copied from Jungle
+  { "op" : "add", "path" : "/terrestrialGraphics/junglesafe", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/jungle/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 30]
+    }
+  },
+  // Copied from Alien
+  { "op" : "add", "path" : "/terrestrialGraphics/aliensafe", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/alien/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 30]
+    }
+  },
+  // Copied from Toxic
+  { "op" : "add", "path" : "/terrestrialGraphics/toxicsafe", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/toxic/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 30],
+      "baseCount" : 2
+    }
+  }
+]

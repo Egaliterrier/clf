@@ -1,0 +1,4 @@
+[
+  { "op" : "replace", "path" : "/defaultBuyFactor", "value" : 1.1 },
+  { "op" : "replace", "path" : "/defaultSellFactor", "value" : 0.9 }
+]

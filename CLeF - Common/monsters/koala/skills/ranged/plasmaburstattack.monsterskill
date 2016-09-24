@@ -1,0 +1,27 @@
+{
+  "name" : "plasmaBurstAttack",
+  "label" : "BLUE PLASMA BURST",
+  "image" : "/monsters/koala/flying/skills/default.png",
+
+  "parameters" : {
+    "plasmaBurstAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "blueplasmabullet",
+      "range" : 20,
+      "speed" : 60,
+      "power" : 8,
+      "shots" : 3,
+      "fireInterval" : 0.3,
+      "castTime" : 0.4,
+      "castEffect" : "castice",
+      "castAnimation" : "charge"
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ "/sfx/projectiles/plasma1.ogg", "/sfx/projectiles/plasma2.ogg" ]
+    }
+  }
+}
+

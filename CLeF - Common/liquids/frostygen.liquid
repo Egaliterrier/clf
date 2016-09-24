@@ -1,0 +1,23 @@
+{
+  // Frostygen. Replacement for removed liquid nitrogen
+
+  "name" : "frostygen",
+  "liquidId" : 10,
+  "description" : "Turns most of liquids into ice on the impact.",
+  "tickDelta" : 1,
+  "color" : [80, 221, 254, 128],
+  "itemDrop" : "liquidfrostygen",
+  "texture" : "/liquids/frostytex.png",
+  "bottomLightMix" : [255, 70, 0],
+  "textureMovementFactor" : 2.6,
+  "interactions" : [
+    { "liquid" : 1,  "materialResult" : "ice" }, // Water
+    { "liquid" : 3,  "materialResult" : "ice" }, // Poison
+    { "liquid" : 4,  "materialResult" : "ice" }, // Peach juice
+    { "liquid" : 6,  "materialResult" : "ice" }, // Healing water
+    { "liquid" : 7,  "materialResult" : "ice" }, // Coconut milk
+    { "liquid" : 9,  "materialResult" : "ice" }, // Coffee
+    { "liquid" : 12, "materialResult" : "ice" }, // Swamp water
+    { "liquid" : 13, "materialResult" : "ice" }  // Liquid slime
+  ]
+}

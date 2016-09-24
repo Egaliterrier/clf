@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "emerald", "count" : 6 }
+    { "item" : "emerald", "count" : 20 }
   ],
   "output" : { "item" : "emeralddrill", "count" : 1 },
   "groups" : [ "scifianvil", "tools", "all" ]

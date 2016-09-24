@@ -1,0 +1,4 @@
+[
+  // Poison + Healing Water = Water
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 1 } }
+]

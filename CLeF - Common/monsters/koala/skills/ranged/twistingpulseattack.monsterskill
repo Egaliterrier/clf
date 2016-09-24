@@ -1,0 +1,27 @@
+{
+  "name" : "twistingPulseAttack",
+  "label" : "TWISTING PULSE",
+  "image" : "/monsters/koala/flying/skills/default.png",
+
+  "parameters" : {
+    "twistingPulseAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "twistingpulse",
+      "range" : 20,
+      "speed" :10,
+      "power" : 11,
+      "shots" : 3,
+      "fireInterval" : 0.15,
+      "castTime" : 0.4,
+      "castEffect" : "castphysical",
+      "castAnimation" : "charge"
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ ]
+    }
+  }
+}
+

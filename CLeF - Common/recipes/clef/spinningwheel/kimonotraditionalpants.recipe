@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "string", "count" : 50 },
+    { "item" : "fabric", "count" : 5 }
+  ],
+  "output" : { "item" : "kimonotraditionalpants", "count" : 1 },
+  "groups" : [ "spinningwheel", "armors", "legs" ]
+}

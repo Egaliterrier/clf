@@ -1,0 +1,9 @@
+{
+  "itemName" : "dashTech",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "/tech/dash.png",
+  "description" : "Double tap Left or Right to use. Usable in air.",
+  "shortdescription" : "Energy Dash",
+
+  "techModule" : "dash"
+}

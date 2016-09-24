@@ -1,5 +1,6 @@
 {
   "itemName" : "hitechpickaxe",
+  "price" : 512,
   "inventoryIcon" : "hitechpickaxeicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
@@ -16,8 +17,8 @@
   "blockRadius" : 4,
   "altBlockRadius" : 1,
   "twoHanded" : true,
-  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.wav" ],
-  "breakSound" : "/sfx/tools/pickaxe_break.wav",
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
+  "breakSound" : "/sfx/tools/pickaxe_break.ogg",
   "durability" : 9001,
   "durabilityPerUse" : 1,
   "tileDamage" : 4.2,

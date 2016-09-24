@@ -1,0 +1,27 @@
+{
+  "name" : "dragonBreathAttack",
+  "label" : "DRAGONBREATH",
+  "image" : "/monsters/koala/flying/skills/default.png",
+
+  "parameters" : {
+    "dragonBreathAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "dragonprojectile",
+      "range" : 15,
+      "speed" : 30,
+      "power" : 10,
+      "shots" : 10,
+      "fireInterval" : 0.066,
+      "castTime" : 0.4,
+      "castEffect" : "castfire",
+      "castAnimation" : "charge"
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ ]
+    }
+  }
+}
+

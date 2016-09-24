@@ -1,0 +1,9 @@
+{
+  "name" : "bonusduckcritter",
+  "category" : "bonusduckcritter",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

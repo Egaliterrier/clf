@@ -13,6 +13,10 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "goldpickaxe" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "platinumpickaxe" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "diamondpickaxe" } },
+  // Restoring ore and compound recipes
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "diamond" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "uraniumrod" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "solariumstar" } },
   // Adding old furnaces and Power Loom
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "oldstonefurnace" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "oldalloyfurnace" } },
@@ -38,9 +42,9 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiychest" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "tiylegs" } },
   // Restoring lagoon set
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonchest" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonhead" } },
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonpants" } },
+//{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonchest" } },
+//{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonhead" } },
+//{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "lagoonpants" } },
   // Restoring wings
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "batwingsback" } },
   // Adding craftable teleporters
@@ -56,11 +60,35 @@
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "orangeteleportercore" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "portableteleporter" } },
   // Adding craftable 3D printer
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "3dprinterplatform" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "apex3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "avian3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "floran3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "glitch3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "human3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "hylotl3dprinter" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "novakid3dprinter" } },
+  // Liquid guns (vanilla)
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "corelavagun" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "fuelgun" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "healinggun" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "liquidlavagun" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "watergun" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "slimegun" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "swampgun" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "milkgun" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "oilgun" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "poisongun" } },
+  // Liquid guns (CLeF-specific)
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "coffeegun" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "frostygengun" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "peachjuicegun" } },
+  // Spoon and glass mug required for coffee quest
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "steelspoon" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "glasscoffeemug" } },
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "clefliquidcoffee" } },
   // Craftable poop and sewage :D
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "poop" } },
   { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "sewage" } },
-  // Restoring old wall behaviour
-  { "op" : "replace", "path" : "/movementParameters/maximumCorrection", "value" : 10 },
-  { "op" : "replace", "path" : "/movementParameters/maxMovementPerStep", "value" : 5.0 }
+  // Restoring maximum energy value back to 100
+  { "op" : "replace", "path" : "/statusControllerSettings/stats/maxEnergy/baseValue", "value" : 100.0 }
 ]

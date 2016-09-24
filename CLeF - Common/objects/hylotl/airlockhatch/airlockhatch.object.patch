@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/orientations/-",
+    "value": {
+      "image" : "airlockhatch.png:default",
+      "imagePosition" : [-24, -8],
+      "direction" : "right",
+      
+      "animationPosition" : [-24, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+     }
+  }
+]

@@ -1,0 +1,4 @@
+[
+  // Disabling soil to dry out
+  { "op" : "replace", "path" : "/wetToDryMods/tilled", "value" : "tilled" }
+]

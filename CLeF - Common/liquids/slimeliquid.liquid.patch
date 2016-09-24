@@ -1,0 +1,15 @@
+[
+  // Let's make liquid slime harvestable
+  // No longer needed. Added by CF in Glad Giraffe (7 months after my own implementation)
+  //{ "op" : "replace", "path" : "/itemDrop", "value" : "liquidslime" },
+  // Liquid Slime converts almost everything into itself
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 1, "liquidResult" : 13 } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 3, "liquidResult" : 13 } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 4, "liquidResult" : 13 } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 5, "liquidResult" : 13 } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 13 } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 7, "liquidResult" : 13 } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 9, "liquidResult" : 13 } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 11, "liquidResult" : 13 } },
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 12, "liquidResult" : 13 } }
+]

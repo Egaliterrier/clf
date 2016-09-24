@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "coffeebeans", "count" : 1 },
+    { "item" : "glasscoffeemug", "count" : 1 }
+  ],
+  "output" : { "item" : "coffee", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "all" ]
+}

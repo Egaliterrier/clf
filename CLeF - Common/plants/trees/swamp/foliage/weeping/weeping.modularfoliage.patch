@@ -1,0 +1,5 @@
+[
+  { "op" : "replace", "path" : "/dropConfig/drops/1", "value" : [ { "item" : "sapling", "count" : 2 }, { "item" : "thornfruit", "count" : 2 } ] },
+  { "op" : "replace", "path" : "/dropConfig/drops/2", "value" : [ { "item" : "sapling", "count" : 2 }, { "item" : "thornfruit", "count" : 3 } ] },
+  { "op" : "replace", "path" : "/dropConfig/drops/3", "value" : [ { "item" : "sapling", "count" : 2 }, { "item" : "thornfruit", "count" : 4 } ] }
+]

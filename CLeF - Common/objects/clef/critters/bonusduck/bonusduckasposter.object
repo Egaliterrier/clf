@@ -1,0 +1,32 @@
+{
+  "objectName" : "bonusduckasposter",
+  "tags" : ["critter","bonusduck","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 120,
+
+  "description" : "Disturbing picture of all seeing bonus duck.",
+  "shortdescription" : "Bonus duck A.S. Poster",
+  "race" : "all",
+
+  "apexDescription" : "Bonus duck... is it that different from Big Ape?",
+  "avianDescription" : "Something is definitely wrong with this picture...",
+  "floranDescription" : "Floran isss kind of afraid it.",
+  "glitchDescription" : "Error. Omnipotent ducks do not exist.",
+  "humanDescription" : "Its beak asks to be punched.",
+  "hylotlDescription" : "If this is not a parody of Big Ape, then I don't know...",
+
+  "inventoryIcon" : "bonusduckaspostericon.png",
+  "orientations" : [
+    {
+      "image" : "bonusduckasposter.png:<color>",
+      "imagePosition" : [-22, -23],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

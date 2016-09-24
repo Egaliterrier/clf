@@ -1,0 +1,19 @@
+{
+  // Peach juice. Replacement for removed alien juice
+
+  "name" : "peachjuice",
+  "liquidId" : 4,
+  "description" : "A sweet scent comes from this liquid. Seems edible.",
+  "tickDelta" : 1,
+  "color" : [254, 240, 246, 254],
+  "itemDrop" : "liquidpeachjuice",
+  "texture" : "/liquids/peachtex.png",
+  "bottomLightMix" : [244, 170, 159],
+  "textureMovementFactor" : 2.6,
+  "interactions" : [
+    { "liquid" : 1, "liquidResult" : 1 }, // Water
+    { "liquid" : 3, "liquidResult" : 3 }, // Poison
+    { "liquid" : 6, "liquidResult" : 6 }, // Healing water
+    { "liquid" : 9, "liquidResult" : 9 }  // Coffee
+  ]
+}

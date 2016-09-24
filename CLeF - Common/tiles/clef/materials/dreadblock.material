@@ -5,7 +5,7 @@
   "itemDrop" : "dreadblock",
   "shortdescription" : "Dreadful Block",
   "description" : "A block from Deadwing's ship.",
-  "footstepSound" : "/sfx/blocks/footstep_lightmetal.wav",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
   "health" : 8,
   "category": "materials",
 

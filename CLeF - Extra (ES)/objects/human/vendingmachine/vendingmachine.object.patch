@@ -1,0 +1,4 @@
+[
+  { "op" : "add", "path" : "/scripts", "value" : [ "/scripts/MovableStorage.lua" ] },
+  { "op" : "add", "path" : "/content", "value" : [] }
+]

@@ -1,0 +1,30 @@
+[
+  {"op":"replace","path":"/price","value":420},
+  {
+    "op": "add",
+    "path": "/orientations/-",
+    "value": {
+      "image" : "ancientverticaldoor.png:default",
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaces" : [[-2,0],[-1,0],[0,0],[1,0],[2,0]],
+      "anchors" : [ "background" ]
+     }
+  },
+  {
+    "op": "add",
+    "path": "/orientations/-",
+    "value": {
+      "image" : "ancientverticaldoor.png:default",
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaces" : [[-2,0],[-1,0],[0,0],[1,0],[2,0]],
+      "anchors" : [ "background" ]
+     }
+  }
+]

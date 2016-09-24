@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidfrostygen",
+  "rarity" : "rare",
+  "inventoryIcon" : "liquidfrostygenicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Frostygen",
+  "description" : "A measure of frostygen.",
+
+  "liquid" : "frostygen"
+}

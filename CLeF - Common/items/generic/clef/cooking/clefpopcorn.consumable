@@ -1,0 +1,17 @@
+{
+  "itemName" : "clefpopcorn",
+  "price" : 90,
+  "rarity" : "Common",
+  "inventoryIcon" : "clefpopcorn.png",
+  "description" : "Freshly popped corn.",
+  "shortdescription" : "Popcorn",
+  "handPosition" : [8, 4],
+  "effects" : [ [
+    {
+        "effect" : "foodheal145",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+  ]
+}

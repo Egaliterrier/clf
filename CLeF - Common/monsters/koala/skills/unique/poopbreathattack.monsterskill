@@ -1,0 +1,27 @@
+{
+  "name" : "poopBreathAttack",
+  "label" : "SHOCK BALL",
+  "image" : "/monsters/koala/flying/skills/default.png",
+
+  "parameters" : {
+    "poopBreathAttack" : {
+      "skillTimeLimit" : 1.5,
+      "cooldownTime" : 1,
+
+      "factory" : "createRangedAttack",
+      "projectile" : "poopbreath",
+      "range" : 10,
+      "speed" : 25,
+      "power" : 16,
+      "shots" : 1,
+      "windupTime" : 0.5,
+      "winddownTime" : 0.5
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ ]
+    }
+  }
+}

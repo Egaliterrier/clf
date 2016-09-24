@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "imperviumcompound", "count" : 12 }
+  ],
+  "output" : { "item" : "humanuniversalistspants", "count" : 1 },
+  "groups" : [ "metalworkstation", "armors", "all" ]
+}

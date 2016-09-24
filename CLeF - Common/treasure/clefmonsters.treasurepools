@@ -1,5 +1,5 @@
 {
-  // dsp2003: re-implementing old treasure pools here
+  // re-implementing old treasure pools here
 
   // Boss: Penguin UFO (Dreadwing)
   "clefPenguinUFO" : [
@@ -7,16 +7,37 @@
       "fill" : [ { "item" : [ "corefragmentore", 21 ] }, { "item" : [ "moltencore", 5 ] }, { "item" : "bossdreadwingCodex" } ]
     }]
   ],
+
   // Boss: Fatal Circuit (Yellow Robot)
   "clefFatalCircuit" : [
     [1, {
       "fill" : [ { "item" : [ "processor", 5 ] }, { "item" : "bossfatalcircuitCodex" }, { "item" : "fatalclawbroken" } ]
     }]
   ],
+
   // Boss: Bone Dragon
   "clefBoneDragon" : [
     [1, {
       "fill" : [ { "item" : [ "dragonbone", 5 ] }, { "item" : "bossbonedragonCodex" } ]
+    }]
+  ],
+  
+  // Bonus duck
+  "bonusduckTreasure" : [
+    [1, {
+      "pool" : [
+        { "weight" : 0.25, "item" : "stuffedbonusduck" },
+        { "weight" : 0.25, "item" : "bonusduckkcposter" },
+        { "weight" : 0.25, "item" : "bonusducknnposter" },
+        { "weight" : 0.25, "item" : "bonusduckasposter" }
+      ],
+      "poolRounds" : [
+        [0.80, 1],
+        [0.20, 2],
+        [0.10, 3],
+        [0.05, 4]
+      ],
+      "allowDuplication" : false
     }]
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "objectName" : "bonusducknnposter",
+  "tags" : ["critter","bonusduck","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 120,
+
+  "description" : "Bonus duck wants you to be happy.",
+  "shortdescription" : "Bonus duck N.N. Poster",
+  "race" : "all",
+
+  "inventoryIcon" : "bonusducknnpostericon.png",
+  "orientations" : [
+    {
+      "image" : "bonusducknnposter.png:<color>",
+      "imagePosition" : [-16, -27],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

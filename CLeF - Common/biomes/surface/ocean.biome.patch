@@ -1,0 +1,4 @@
+[
+  // Bonus duck -----------------------------------------------------------------------------
+  { "op" : "add", "path" : "/spawnProfile/groups/3/pool/-", "value" : [ 0.08, "bonusduckcritter" ] }
+]

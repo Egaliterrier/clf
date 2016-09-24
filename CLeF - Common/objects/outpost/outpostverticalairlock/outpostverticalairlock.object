@@ -1,0 +1,70 @@
+{
+  "objectName" : "outpostverticalairlock",
+  "colonyTags" : ["outpost","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "description" : "This door is made of some sort of bulletproof material.",
+  "shortdescription" : "Outpost Small Airlock Hatch",
+  "race" : "generic",
+
+  "apexDescription" : "An airlock.",
+  "avianDescription" : "An airlock.",
+  "floranDescription" : "Floran want to throw door open!",
+  "glitchDescription" : "Statement. An airlock.",
+  "humanDescription" : "An airlock.",
+  "hylotlDescription" : "An airlock.",
+
+  "inventoryIcon" : "outpostverticalairlockicon.png",
+  "orientations" : [
+    {
+      "image" : "outpostverticalairlock.png:default",
+      "flipImages" : true,
+      "imagePosition" : [-16, -8],
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "outpostverticalairlock.png:default",
+      "imagePosition" : [-16, -8],
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ],
+      "direction" : "right"
+    },
+    {
+      "image" : "outpostverticalairlock.png:default",
+      "flipImages" : true,
+      "imagePosition" : [-16, -8],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "outpostverticalairlock.png:default",
+      "imagePosition" : [-16, -8],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "outpostverticalairlock.png"
+  },
+  "animationPosition" : [-16, -8],
+
+  "inboundNodes" : [ [-2, 0] ],
+  "outboundNodes" : [ [2, -1] ]
+}

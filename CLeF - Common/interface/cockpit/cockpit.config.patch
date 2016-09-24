@@ -1,7 +1,13 @@
 [
-  // intraspace travel cost patch
+  // Intraspace travel cost patch ----------------------------------------------------
   { "op" : "replace", "path" : "/intraSystemFuelcost", "value" : 5 },
   // interface colours
   { "op" : "replace", "path" : "/guiConfig/xCoord/color", "value" : [ 255, 128, 0 ] },
-  { "op" : "replace", "path" : "/guiConfig/yCoord/color", "value" : [ 255, 128, 0 ] }
+  { "op" : "replace", "path" : "/guiConfig/yCoord/color", "value" : [ 255, 128, 0 ] },
+  
+  // Safe planets patch --------------------------------------------------------------
+  { "op" : "add", "path" : "/planetTypeToDescription/grassland", "value" : "A ^#76fe68;grassy ^white;planet teeming with life. Perfect for starting a colony or an adventure." },
+  { "op" : "add", "path" : "/planetTypeToDescription/toxicsafe", "value" : "Planet is covered in ^#06ff00;poisonous oceans. ^red;No breathable atmosphere." },
+  { "op" : "add", "path" : "/planetTypeToDescription/junglesafe", "value" : "Warm and wet climate sustains ^#12a003;tropical ^white;plant life." },
+  { "op" : "add", "path" : "/planetTypeToDescription/aliensafe", "value" : "Planet is covered in ^#7800ff;alien ^white;plant life.^red; No breathable atmosphere." }
 ]

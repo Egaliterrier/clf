@@ -1,5 +1,6 @@
 {
   "itemName" : "stonehoe",
+  "price" : 10,
   "inventoryIcon" : "stonehoeicon.png",
   "pickupQuestTemplates" : [ "hoe.gearup" ],
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
@@ -15,5 +16,5 @@
   "blockRadius" : 3,
   "altBlockRadius" : 1,
   "twoHanded" : true,
-  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.wav" ]
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ]
 }

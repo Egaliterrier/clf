@@ -1,0 +1,21 @@
+{
+  "name" : "throwPoAttack",
+  "label" : "LIGHT BALL",
+  "image" : "/monsters/koala/flying/skills/default.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/koala/skills/unique/throwPoAttack.lua" ],
+    "throwPoAttack" : {
+      "skillTimeLimit" : 1.5,
+      "cooldownTime" : 5,
+
+      "maxDistance" : 15,
+      "maxMinions" : 5,
+      "startTime" : 0.5,
+      "endTime" : 0.5,
+
+      "approachPoints" : [ [-8.5, 2.0], [8.5, 2.0] ],
+      "startRects" : [ [-15.0, -5.5, -5.0, 5.5], [5.0, -5.5, 15.0, 5.5] ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "sandstonematerial", "count" : 15 }
+  ],
+  "output" : { "item" : "sandstonechest", "count" : 1 },
+  "groups" : [ "ironcraftingtable", "storage", "objects", "all" ]
+}

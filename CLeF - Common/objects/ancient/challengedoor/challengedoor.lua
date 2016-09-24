@@ -49,6 +49,7 @@ function onInteraction(args)
       }
     }
   else
+    local threatLevel = world.getProperty("ship.fuel") and math.random(6) or world.threatLevel()
     return { "OpenTeleportDialog", {
         canBookmark = false,
         includePlayerBookmarks = false,
@@ -56,7 +57,7 @@ function onInteraction(args)
           name = "Challenge Portal",
           planetName = "Unstable Pocket Dimension",
           icon = "default",
-          warpAction = string.format("InstanceWorld:challengerooms:%s:%s", storage.uuid, world.threatLevel())
+          warpAction = string.format("InstanceWorld:challengerooms:%s:%s", storage.uuid, threatLevel)
         } }
       }
     }

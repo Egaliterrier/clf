@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ceruliumcompound", "count" : 35 }
+  ],
+  "output" : { "item" : "humanwandererschest", "count" : 1 },
+  "groups" : [ "metalworkstation", "armors", "all" ]
+}

@@ -1,0 +1,4 @@
+[
+  // Removing that nasty sandstorm's fine sand spawn
+  { "op" : "remove", "path" : "/actionOnReap" }
+]

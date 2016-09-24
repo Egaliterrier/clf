@@ -1,5 +1,6 @@
 {
   "itemName" : "stoneaxe",
+  "price" : 5,
   "inventoryIcon" : "stoneaxeicon.png",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
@@ -15,5 +16,5 @@
   "altBlockRadius" : 1,
   "damage" : 10,
   "twoHanded" : false,
-  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.wav" ]
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ]
 }

@@ -14,7 +14,7 @@
   "hylotlDescription" : "I suspect this might be poisonous.",
   "novakidDescription" : "Green gold, literally speakin'.",
 
-  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
   "health" : 8,
   "category": "materials",
 

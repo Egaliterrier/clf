@@ -1,0 +1,5 @@
+[
+  // Water interactions
+  // No longer needed. Added by CF in Glad Giraffe (7 months after my own implementation)
+  //{ "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 6 } } // Healing water
+]

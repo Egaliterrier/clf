@@ -1,0 +1,12 @@
+[
+  // Bonus duck!
+  {
+    "op" : "add", "path" : "/-", "value" : {
+      "name" : "bonusduckcritter",    
+      "monsterType" : "bonusduckcritter",
+      "monsterParameters" : { "aggressive" : false },
+      "spawnParameters" : { "area" : "surface", "region" : "exposed", "time" : "all" },
+      "targetDensity" : 0.008
+    }
+  }
+]

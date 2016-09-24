@@ -1,0 +1,7 @@
+[
+  // Swamp Water interactions
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 1, "liquidResult" : 12 } }, // water
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 3, "liquidResult" : 3 } }, // poison
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 4, "liquidResult" : 12 } }, // peach juice
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 6, "liquidResult" : 1 } } // healing water
+]

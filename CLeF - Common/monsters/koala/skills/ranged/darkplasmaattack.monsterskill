@@ -1,0 +1,27 @@
+{
+  "name" : "darkPlasmaAttack",
+  "label" : "DARK PLASMA",
+  "image" : "/monsters/koala/flying/skills/default.png",
+
+  "parameters" : {
+    "darkPlasmaAttack" : {
+      "factory" : "createRangedAttack",
+      "projectile" : "darkplasma",
+      "arc" : "low",
+      "range" : 17,
+      "speed" : 25,
+      "power" : 16,
+      "shots" : 1,
+      "castTime" : 0.4,
+      "castEffect" : "castphysical",
+      "castAnimation" : "charge"
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "rangedAttack" : [ ]
+    }
+  }
+}
+

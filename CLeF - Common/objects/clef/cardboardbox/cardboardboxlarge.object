@@ -36,8 +36,8 @@
     }
   ],
 
-  "openSounds" : [ "/sfx/objects/cardboardboxlarge_open.wav" ],
-  "closeSounds" : [ "/sfx/objects/cardboardboxlarge_close.wav" ],
+  "openSounds" : [ "/sfx/objects/cardboardboxlarge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/cardboardboxlarge_close.ogg" ],
   "slotCount" : 42,
   "uiConfig" : "/interface/chests/chest%slots%.config",
   "frameCooldown" : 5,

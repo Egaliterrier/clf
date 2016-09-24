@@ -1,4 +1,5 @@
 [
+  // Peanut plant patch ---------------------------------------------------------------------
   { "op" : "add", "path" : "/surfacePlaceables/items/-", "value" : {
 
     "mode" : "floor",
@@ -10,5 +11,8 @@
     "objectSets" : [ { "pool" : [ [1, "wildpeanutseed" ] ], "parameters" : { "startingStage" : 2 } } ]
 
     }
-  }
+  },
+  
+  // Bonus duck -----------------------------------------------------------------------------
+  { "op" : "add", "path" : "/spawnProfile/groups/2/pool/-", "value" : [ 0.08, "bonusduckcritter" ] }
 ]

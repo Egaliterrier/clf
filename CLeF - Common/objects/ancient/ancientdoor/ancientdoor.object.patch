@@ -1,0 +1,26 @@
+[
+  {"op":"replace","path":"/price","value":420},
+  {
+    "op": "add",
+    "path": "/orientations/-",
+    "value": {
+      "image" : "ancientdoor.png:default",
+      "imagePosition" : [-20, 0],
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "left"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/orientations/-",
+    "value": {
+      "image" : "ancientdoor.png:default",
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+     }
+  }
+]

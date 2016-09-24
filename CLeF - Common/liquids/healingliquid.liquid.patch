@@ -1,0 +1,4 @@
+[
+  // Healing Water + Erchius Fuel = Water
+  { "op" : "add", "path" : "/interactions/-", "value" : { "liquid" : 11, "liquidResult" : 1 } }
+]

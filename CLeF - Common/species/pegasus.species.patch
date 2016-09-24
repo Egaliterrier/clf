@@ -1,0 +1,14 @@
+[
+  // Addon for The Pony Modpack
+  // Note: Pony Male (0) and Female (1) hairs are defined separately.
+  //       Do not share them between the genders if you aren't sure.
+
+  // dsp2003's hair: Brownie Bun
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "fembrownie" },
+  
+  // dsp2003's additional Brownie Bun's mane colour scheme
+  { "op" : "add", "path" : "/hairColor/-", "value" : { "f7e7b2" : "702800", "d9c189" : "4E1C00", "a38d59" : "4E1C00", "735e3a" : "331103", "ffbaec" : "A19EC0", "fd8ad9" : "C1BFE0", "ff60bd" : "C1BFE0", "e43c77" : "A19EC0" } },
+  // dsp2003's additional Brownie Bun's body colour schemes
+  { "op" : "add", "path" : "/bodyColor/-", "value" : { "ffca8a" : "CBA58E", "e0975c" : "997B67", "a85636" : "685244", "6f2919" : "533A2A" } }, // slightly darker
+  { "op" : "add", "path" : "/bodyColor/-", "value" : { "ffca8a" : "997B67", "e0975c" : "CBA58E", "a85636" : "685244", "6f2919" : "533A2A" } }  // original design
+]

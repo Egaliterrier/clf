@@ -5,8 +5,8 @@
 
   { "op" : "add", "path" : "/novakidDescription", "value" : "Suddenly, I'm thirsty." },
 
-  { "op" : "add", "path" : "/openSounds", "value" : [ "/sfx/objects/fridge_open.wav" ] },
-  { "op" : "add", "path" : "/closeSounds", "value" : [ "/sfx/objects/fridge_close.wav" ] },
+  { "op" : "add", "path" : "/openSounds", "value" : [ "/sfx/objects/fridge_open.ogg" ] },
+  { "op" : "add", "path" : "/closeSounds", "value" : [ "/sfx/objects/fridge_close.ogg" ] },
   { "op" : "add", "path" : "/slotCount", "value" : 40 },
   { "op" : "add", "path" : "/uiConfig", "value" : "/interface/chests/chest%slots%.config" },
   { "op" : "add", "path" : "/frameCooldown", "value" : 5 },

@@ -1,0 +1,76 @@
+[
+  // Note: Apex Male (0) and Female (1) hairs are stored separately.
+  //       Do not copypaste them!
+
+  // Lissar's hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "ex2" },
+  // Patchwork's hair
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw1" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw2" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw3" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw4" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "pw5" },
+  // AnTi's hair
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm01" }, // both
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anm01" }, //
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm02" }, // both
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anm02" }, //
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm03" }, // both
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anm03" }, //
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm04" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm05" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm06" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm07" }, // both
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anm07" }, //
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm08" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm09" }, // both
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anm09" }, //
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm10" }, // both
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anm10" }, //
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm11" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm12" }, // both
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anm12" }, //
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm13" }, // both
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anm13" }, //
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm14" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm15" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm16" }, // both
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anm16" }, //
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm17" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm18" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anm19" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf01" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf02" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf03" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf04" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf05" },
+  { "op" : "add", "path" : "/genders/0/hair/-", "value" : "anf06" }, // both
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf06" }, //
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf07" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf08" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf09" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf10" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf11" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf12" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf13" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf14" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf15" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf16" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf17" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf18" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf19" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf20" },
+  { "op" : "add", "path" : "/genders/1/hair/-", "value" : "anf21" },
+
+  // Lissar's beards
+  { "op" : "add", "path" : "/genders/0/facialHair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/0/facialHair/-", "value" : "ex2" },
+  { "op" : "add", "path" : "/genders/0/facialHair/-", "value" : "ex3" },
+  { "op" : "add", "path" : "/genders/1/facialHair/-", "value" : "ex1" },
+  { "op" : "add", "path" : "/genders/1/facialHair/-", "value" : "ex2" },
+  { "op" : "add", "path" : "/genders/1/facialHair/-", "value" : "ex3" },
+  // AnTi's beards
+  { "op" : "add", "path" : "/genders/0/facialHair/-", "value" : "an1" }
+]

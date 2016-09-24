@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "sandstonematerial", "count" : 4 },
+    { "item" : "coalore", "count" : 1 }
+  ],
+  "output" : { "item" : "sandstonetorch", "count" : 4 },
+  "groups" : [ "ironcraftingtable", "light", "objects", "all" ]
+}
